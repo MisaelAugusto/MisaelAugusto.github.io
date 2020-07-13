@@ -1,21 +1,42 @@
 import styled from 'styled-components';
 
 export const Header = styled.header`
-  display: block;
-  font-size: 64px;
-  margin-top: 40px;
-  margin-left: 40px;
-  padding-left: 8px;
-  border-left: 4px solid #ed5800;
-`;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 80px;
 
-export const TemporaryBody = styled.div`
-  div {
-    display: flex;
-    height: 500px;
-    align-items: center;
-    justify-content: center;
+  a {
+    color: black;
+    font-size: 24px;
+    text-decoration: none;
   }
 
-  font-size: 64px;
+  #misael {
+    padding-left: 8px;
+    border-left: 4px solid #ffdd50;
+  }
+
+  #contact:hover {
+    display: block;
+    border-bottom: 4px solid #ffdd50;
+  }
+`;
+
+export const Option = styled.div`
+  color: #fff;
+  margin: 12px 0;
+  font-size: 32px;
+  position: relative;
+  transition: transform 0.2s;
+
+  p {
+    position: absolute;
+    bottom: 64px;
+    left: 44px;
+  }
+
+  &:hover {
+    transform: scale(1.1);
+  }
 `;

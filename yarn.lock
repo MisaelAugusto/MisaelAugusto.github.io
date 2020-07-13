@@ -1669,6 +1669,13 @@
     "@types/history" "*"
     "@types/react" "*"
 
+"@types/react-scrollbar@^0.5.1":
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@types/react-scrollbar/-/react-scrollbar-0.5.1.tgz#4d606a02876223dec31a53337640c08fda188117"
+  integrity sha512-oj8K2kSsvKhw6GfrFgQjogXRyNHzJtrERpvJ4l4/iyfXLjpi1rY8SpaJZBXQnO5gT1hZX4wIbuUYWn2FQtiJyw==
+  dependencies:
+    "@types/react" "*"
+
 "@types/react@*", "@types/react@^16.9.0":
   version "16.9.43"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.43.tgz#c287f23f6189666ee3bebc2eb8d0f84bcb6cdb6b"
@@ -9123,6 +9130,11 @@ react-error-overlay@^6.0.7:
   version "6.0.7"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.7.tgz#1dcfb459ab671d53f660a991513cb2f0a0553108"
   integrity sha512-TAv1KJFh3RhqxNvhzxj6LeT5NWklP6rDr2a0jaTfsZ5wSZWHOGeqQyejUp3xxLfPt2UpyJEcVQB/zyPcmonNFA==
+
+react-horizontal-scrolling-menu@^0.7.7:
+  version "0.7.7"
+  resolved "https://registry.yarnpkg.com/react-horizontal-scrolling-menu/-/react-horizontal-scrolling-menu-0.7.7.tgz#3c74c877b414fe4418d81a0cfe07eecf34b23657"
+  integrity sha512-NuxQDQYOCWx1cbkLtgrzDWgWF5uE62s48NR3ljmV92idCKEV75BFmv/Z77aTsUlCKdxPG379VB+jIjtcG2ncmA==
 
 react-is@^16.12.0, react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.4:
   version "16.13.1"
