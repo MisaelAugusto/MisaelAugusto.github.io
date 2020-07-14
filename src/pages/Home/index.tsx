@@ -12,23 +12,23 @@ import Podcasts from '../../assets/podcasts.svg';
 
 const options = [
   <Option id="about">
-    <img src={About} alt="About" />
+    <img src={About} alt="About" draggable={false} />
     <p>About</p>
   </Option>,
   <Option>
-    <img src={Experience} alt="Experience" />
+    <img src={Experience} alt="Experience" draggable={false} />
     <p>Experience</p>
   </Option>,
   <Option>
-    <img src={Projects} alt="Projects" />
+    <img src={Projects} alt="Projects" draggable={false} />
     <p>Projects</p>
   </Option>,
   <Option>
-    <img src={Podcasts} alt="Podcasts" />
+    <img src={Podcasts} alt="Podcasts" draggable={false} />
     <p>Podcasts</p>
   </Option>,
   <Option>
-    <img src={Articles} alt="Articles" />
+    <img src={Articles} alt="Articles" draggable={false} />
     <p>Articles</p>
   </Option>
 ];
@@ -47,10 +47,9 @@ const Home: React.FC = () => (
     </Header>
     <ScrollMenu
       data={options}
+      transition={0.8}
       clickWhenDrag={false}
-      transition={0.6}
-      dragging={false}
-      alignOnResize
+      wheel={false}
     />
   </>
 );

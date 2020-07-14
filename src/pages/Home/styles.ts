@@ -32,9 +32,13 @@ export const Option = styled.div`
 
   p {
     position: absolute;
-    bottom: 64px;
-    left: 44px;
+    bottom: 0;
+    left: 40px;
   }
+
+  width: 280px;
+  height: 280px;
+  margin-right: 80px;
 
   &:hover {
     transform: scale(1.1);
