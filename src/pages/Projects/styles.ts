@@ -56,6 +56,29 @@ export const Option = styled.div`
   }
 `;
 
+export const Menu = styled.div`
+  display: flex;
+  align-items: center;
+  padding-left: 140px;
+
+  button {
+    border: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transition: transform 0.2s;
+    background: rgba(0, 0, 0, 0);
+
+    & + button {
+      margin-left: 32px;
+    }
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+`;
+
 export const ScrollText = styled.div`
   display: flex;
   align-items: center;

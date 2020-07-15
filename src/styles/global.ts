@@ -1,7 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
 
-import Background from '../assets/background.svg';
-
 export default createGlobalStyle`
   * {
     margin: 0;
@@ -10,13 +8,12 @@ export default createGlobalStyle`
     box-sizing: border-box;
   }
 
-  html {
+  html, body, #root {
     height: 100%;
   }
 
   body {
-    background: #d3d3d3 url(${Background}) no-repeat bottom;
-    background-size: 718px 545px;
+    background: #d3d3d3;
     -webkit-font-smoothing: antialiased;
   }
 

@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import ScrollMenu from 'react-horizontal-scrolling-menu';
 
-import { Header, Option } from './styles';
+import { Header, Option, ScrollText } from './styles';
 
 import About from '../../assets/about.svg';
 import Experience from '../../assets/experience.svg';
@@ -13,23 +13,33 @@ import Podcasts from '../../assets/podcasts.svg';
 const options = [
   <Option id="about">
     <img src={About} alt="About" draggable={false} />
-    <p>About</p>
-  </Option>,
-  <Option>
-    <img src={Experience} alt="Experience" draggable={false} />
-    <p>Experience</p>
+    <Link to="/about" draggable={false}>
+      About
+    </Link>
   </Option>,
   <Option>
     <img src={Projects} alt="Projects" draggable={false} />
-    <p>Projects</p>
+    <Link to="/projects" draggable={false}>
+      Projects
+    </Link>
   </Option>,
   <Option>
-    <img src={Podcasts} alt="Podcasts" draggable={false} />
-    <p>Podcasts</p>
+    <img src={Experience} alt="Experience" draggable={false} />
+    <Link to="/" draggable={false}>
+      Experience
+    </Link>
   </Option>,
   <Option>
     <img src={Articles} alt="Articles" draggable={false} />
-    <p>Articles</p>
+    <Link to="/" draggable={false}>
+      Articles
+    </Link>
+  </Option>,
+  <Option>
+    <img src={Podcasts} alt="Podcasts" draggable={false} />
+    <Link to="/" draggable={false}>
+      Podcasts
+    </Link>
   </Option>
 ];
 
@@ -41,6 +51,7 @@ const Home: React.FC = () => (
         <br />
         Augusto
       </Link>
+
       <Link id="contact" to="/contact">
         Contact
       </Link>
@@ -48,9 +59,11 @@ const Home: React.FC = () => (
     <ScrollMenu
       data={options}
       transition={0.8}
-      clickWhenDrag={false}
       wheel={false}
+      translate={80}
+      onUpdate={() => ({ translate: 80 })}
     />
+    <ScrollText>Click and drag to scroll &gt;&gt;</ScrollText>
   </>
 );
 
