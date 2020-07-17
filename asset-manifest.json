@@ -1,25 +1,30 @@
 {
   "files": {
-    "main.js": "/static/js/main.6f64e881.chunk.js",
-    "main.js.map": "/static/js/main.6f64e881.chunk.js.map",
+    "main.js": "/static/js/main.330159db.chunk.js",
+    "main.js.map": "/static/js/main.330159db.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.0c1849c4.js",
     "runtime-main.js.map": "/static/js/runtime-main.0c1849c4.js.map",
-    "static/js/2.043481f2.chunk.js": "/static/js/2.043481f2.chunk.js",
-    "static/js/2.043481f2.chunk.js.map": "/static/js/2.043481f2.chunk.js.map",
+    "static/js/2.3c69d918.chunk.js": "/static/js/2.3c69d918.chunk.js",
+    "static/js/2.3c69d918.chunk.js.map": "/static/js/2.3c69d918.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.2c90dfcc4b60affbe611b513e285e08b.js": "/precache-manifest.2c90dfcc4b60affbe611b513e285e08b.js",
+    "precache-manifest.7f0638e49fe7a7fda1afb960496f9778.js": "/precache-manifest.7f0638e49fe7a7fda1afb960496f9778.js",
     "service-worker.js": "/service-worker.js",
-    "static/js/2.043481f2.chunk.js.LICENSE.txt": "/static/js/2.043481f2.chunk.js.LICENSE.txt",
+    "static/js/2.3c69d918.chunk.js.LICENSE.txt": "/static/js/2.3c69d918.chunk.js.LICENSE.txt",
+    "static/media/about-me.png": "/static/media/about-me.97c62381.png",
     "static/media/about.svg": "/static/media/about.fc51a096.svg",
-    "static/media/articles.svg": "/static/media/articles.679b8bcf.svg",
-    "static/media/background.svg": "/static/media/background.862838a8.svg",
+    "static/media/articles.svg": "/static/media/articles.455e349b.svg",
+    "static/media/desk.png": "/static/media/desk.a789a12a.png",
+    "static/media/email.svg": "/static/media/email.a710f85c.svg",
     "static/media/experience.svg": "/static/media/experience.a7501e7a.svg",
+    "static/media/github.svg": "/static/media/github.d22b7f3f.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.be786a21.svg",
     "static/media/podcasts.svg": "/static/media/podcasts.af941d2e.svg",
-    "static/media/projects.svg": "/static/media/projects.0537e272.svg"
+    "static/media/projects.svg": "/static/media/projects.0537e272.svg",
+    "static/media/sleep-time.svg": "/static/media/sleep-time.7741b662.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.0c1849c4.js",
-    "static/js/2.043481f2.chunk.js",
-    "static/js/main.6f64e881.chunk.js"
+    "static/js/2.3c69d918.chunk.js",
+    "static/js/main.330159db.chunk.js"
   ]
 }
