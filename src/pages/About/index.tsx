@@ -32,7 +32,9 @@ const About: React.FC = () => (
         <p id="description">
           I&apos;ve always been passionate about technology and all the
           possibilities it offers us to create solutions to our society&apos;s
-          problems.
+          problems! I realy want to work with projects that have positive impact
+          in the people&apos;s daily lives and improve their lives even if
+          it&apos;s in a subtle way.
         </p>
         <br />
         <p id="description">

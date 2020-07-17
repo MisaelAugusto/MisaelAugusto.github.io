@@ -6,13 +6,12 @@ import ScrollMenu from 'react-horizontal-scrolling-menu';
 
 import { Header, Menu, Option, ScrollText } from './styles';
 
-import SleepTime from '../../assets/projects.svg'; // Change this!!!
+import SleepTime from '../../assets/projects/sleep-time.svg';
 
 const options = [
   <Option>
-    <img src={SleepTime} alt="SleepTime" draggable={false} />
     <Link to="/" draggable={false}>
-      Sleep Time
+      <img src={SleepTime} alt="SleepTime" draggable={false} />
     </Link>
   </Option>
 ];
@@ -30,7 +29,7 @@ const Home: React.FC = () => (
         Contact
       </Link>
     </Header>
-    <ScrollMenu data={options} transition={0.8} wheel={false} />
+    <ScrollMenu data={options} transition={0.8} wheel={false} translate={0} />
     <Menu>
       <button type="button">
         <FiMonitor size={20} />

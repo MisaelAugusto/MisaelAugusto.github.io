@@ -38,19 +38,6 @@ export const Option = styled.div`
   display: flex;
   align-items: center;
 
-  a {
-    bottom: 60px;
-    left: 40px;
-    color: #fff;
-    position: absolute;
-    text-decoration: none;
-
-    &:hover {
-      display: block;
-      border-bottom: 1px solid #fff;
-    }
-  }
-
   &:hover {
     transform: scale(1.1);
   }
@@ -64,17 +51,17 @@ export const Menu = styled.div`
   button {
     border: none;
     display: flex;
+    background: none;
     align-items: center;
     flex-direction: column;
     transition: transform 0.2s;
-    background: rgba(0, 0, 0, 0);
 
     & + button {
       margin-left: 32px;
     }
 
     &:hover {
-      transform: scale(1.2);
+      transform: scale(1.3);
     }
   }
 `;

@@ -5,9 +5,9 @@ import Desk from '../../assets/desk.png';
 const Footer: React.FC = () => (
   <footer
     style={{
-      position: 'fixed',
-      bottom: -2,
-      left: '36%'
+      margin: '18px 0 0 0',
+      display: 'flex',
+      justifyContent: 'center'
     }}
   >
     <img

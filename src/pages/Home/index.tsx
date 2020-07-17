@@ -56,13 +56,7 @@ const Home: React.FC = () => (
         Contact
       </Link>
     </Header>
-    <ScrollMenu
-      data={options}
-      transition={0.8}
-      wheel={false}
-      translate={80}
-      onUpdate={() => ({ translate: 80 })}
-    />
+    <ScrollMenu data={options} transition={0.8} wheel={false} translate={80} />
     <ScrollText>Click and drag to scroll &gt;&gt;</ScrollText>
   </>
 );
