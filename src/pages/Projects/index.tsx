@@ -4,7 +4,7 @@ import { GiConsoleController } from 'react-icons/gi';
 import { FiMonitor, FiSmartphone } from 'react-icons/fi';
 import ScrollMenu from 'react-horizontal-scrolling-menu';
 
-import { Header, Menu, Option, ScrollText } from './styles';
+import { Header, FilterMenu, Option, ScrollText } from './styles';
 
 import SleepTime from '../../assets/projects/sleep-time.svg';
 
@@ -32,21 +32,29 @@ const Home: React.FC = () => (
       translate={0}
       clickWhenDrag={false}
     />
-    <Menu>
-      <button type="button">
-        <FiMonitor size={20} />
-        <p>WEB</p>
-      </button>
-      <button type="button">
-        <FiSmartphone size={20} />
-        <p>MOBILE</p>
-      </button>
-      <button type="button">
-        <GiConsoleController size={20} />
-        <p>GAMES</p>
-      </button>
-    </Menu>
-    <ScrollText>Click and drag to scroll &gt;&gt;</ScrollText>
+    <div
+      style={{
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'space-between'
+      }}
+    >
+      <FilterMenu>
+        <button type="button">
+          <FiMonitor size={20} />
+          <p>WEB</p>
+        </button>
+        <button type="button">
+          <FiSmartphone size={20} />
+          <p>MOBILE</p>
+        </button>
+        <button type="button">
+          <GiConsoleController size={20} />
+          <p>GAMES</p>
+        </button>
+      </FilterMenu>
+      <ScrollText>Click and drag to scroll &gt;&gt;</ScrollText>
+    </div>
   </>
 );
 

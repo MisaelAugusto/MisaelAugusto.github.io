@@ -38,7 +38,7 @@ export const Option = styled.div`
   }
 `;
 
-export const Menu = styled.div`
+export const FilterMenu = styled.div`
   display: flex;
   align-items: center;
   padding-left: 140px;
