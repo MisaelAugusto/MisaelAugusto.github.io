@@ -21,11 +21,6 @@ export const Header = styled.header`
       transform: translateX(10px);
     }
   }
-
-  #contact:hover {
-    display: block;
-    border-bottom: 4px solid #ffdd50;
-  }
 `;
 
 export const Option = styled.div`

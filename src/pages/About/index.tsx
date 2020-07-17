@@ -13,10 +13,6 @@ const About: React.FC = () => (
         <br />
         Augusto
       </Link>
-
-      <Link id="contact" to="/contact">
-        Contact
-      </Link>
     </Header>
     <Description>
       <img src={Me} alt="Me" />

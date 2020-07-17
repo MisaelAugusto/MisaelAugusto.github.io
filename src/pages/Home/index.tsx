@@ -4,14 +4,14 @@ import ScrollMenu from 'react-horizontal-scrolling-menu';
 
 import { Header, Option, ScrollText } from './styles';
 
-import About from '../../assets/about.svg';
-import Experience from '../../assets/experience.svg';
-import Projects from '../../assets/projects.svg';
-import Articles from '../../assets/articles.svg';
-import Podcasts from '../../assets/podcasts.svg';
+import About from '../../assets/options/about.svg';
+import Experience from '../../assets/options/experience.svg';
+import Projects from '../../assets/options/projects.svg';
+import Articles from '../../assets/options/articles.svg';
+import Podcasts from '../../assets/options/podcasts.svg';
 
 const options = [
-  <Option id="about">
+  <Option>
     <img src={About} alt="About" draggable={false} />
     <Link to="/about" draggable={false}>
       About
@@ -25,19 +25,19 @@ const options = [
   </Option>,
   <Option>
     <img src={Experience} alt="Experience" draggable={false} />
-    <Link to="/" draggable={false}>
+    <Link to="/experience" draggable={false}>
       Experience
     </Link>
   </Option>,
   <Option>
     <img src={Articles} alt="Articles" draggable={false} />
-    <Link to="/" draggable={false}>
+    <Link to="/podcasts" draggable={false}>
       Articles
     </Link>
   </Option>,
   <Option>
     <img src={Podcasts} alt="Podcasts" draggable={false} />
-    <Link to="/" draggable={false}>
+    <Link to="/articles" draggable={false}>
       Podcasts
     </Link>
   </Option>

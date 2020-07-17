@@ -7,9 +7,16 @@ export const Header = styled.header`
   padding: 18px 80px;
 
   a {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     color: black;
     font-size: 24px;
     text-decoration: none;
+
+    & + a {
+      margin-left: 12px;
+    }
   }
 
   #misael {
@@ -23,8 +30,7 @@ export const Header = styled.header`
   }
 
   #contact:hover {
-    display: block;
-    border-bottom: 4px solid #ffdd50;
+    border-bottom: 5px solid #ffdd50;
   }
 `;
 

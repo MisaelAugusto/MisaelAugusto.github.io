@@ -24,12 +24,14 @@ const Home: React.FC = () => (
         <br />
         Augusto
       </Link>
-
-      <Link id="contact" to="/contact">
-        Contact
-      </Link>
     </Header>
-    <ScrollMenu data={options} transition={0.8} wheel={false} translate={0} />
+    <ScrollMenu
+      data={options}
+      transition={0.8}
+      wheel={false}
+      translate={0}
+      clickWhenDrag={false}
+    />
     <Menu>
       <button type="button">
         <FiMonitor size={20} />
